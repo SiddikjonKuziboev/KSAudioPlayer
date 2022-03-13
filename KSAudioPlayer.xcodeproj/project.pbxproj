@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D54548B27DCA35B00270611 /* AnimationFrames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54548A27DCA35B00270611 /* AnimationFrames.swift */; };
+		4D9C111927DA67510080692D /* AudioListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9C111727DA67510080692D /* AudioListTVC.swift */; };
+		4D9C111A27DA67510080692D /* AudioListTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C111827DA67510080692D /* AudioListTVC.xib */; };
+		4D9C111D27DA6C140080692D /* KSAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9C111C27DA6C140080692D /* KSAudioPlayer.swift */; };
 		4DC11FDC27DA285F00D80461 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC11FDB27DA285F00D80461 /* AppDelegate.swift */; };
-		4DC11FDE27DA285F00D80461 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC11FDD27DA285F00D80461 /* SceneDelegate.swift */; };
-		4DC11FE027DA285F00D80461 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC11FDF27DA285F00D80461 /* ViewController.swift */; };
-		4DC11FE327DA285F00D80461 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC11FE127DA285F00D80461 /* Main.storyboard */; };
 		4DC11FE527DA286100D80461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC11FE427DA286100D80461 /* Assets.xcassets */; };
 		4DC11FE827DA286100D80461 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC11FE627DA286100D80461 /* LaunchScreen.storyboard */; };
+		4DC11FF727DA298300D80461 /* AudiosListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC11FF527DA298300D80461 /* AudiosListVC.swift */; };
+		4DC11FF827DA298300D80461 /* AudiosListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DC11FF627DA298300D80461 /* AudiosListVC.xib */; };
+		4DC1200027DA2C3000D80461 /* NowPlayingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC11FFE27DA2C3000D80461 /* NowPlayingVC.swift */; };
+		4DC1200127DA2C3000D80461 /* NowPlayingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DC11FFF27DA2C3000D80461 /* NowPlayingVC.xib */; };
+		4DC1200427DA319200D80461 /* AudioDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC1200327DA319200D80461 /* AudioDM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D54548A27DCA35B00270611 /* AnimationFrames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationFrames.swift; sourceTree = "<group>"; };
+		4D9C111727DA67510080692D /* AudioListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioListTVC.swift; sourceTree = "<group>"; };
+		4D9C111827DA67510080692D /* AudioListTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AudioListTVC.xib; sourceTree = "<group>"; };
+		4D9C111C27DA6C140080692D /* KSAudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSAudioPlayer.swift; sourceTree = "<group>"; };
 		4DC11FD827DA285F00D80461 /* KSAudioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSAudioPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DC11FDB27DA285F00D80461 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4DC11FDD27DA285F00D80461 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4DC11FDF27DA285F00D80461 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4DC11FE227DA285F00D80461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DC11FE427DA286100D80461 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DC11FE727DA286100D80461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DC11FE927DA286100D80461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DC11FF527DA298300D80461 /* AudiosListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudiosListVC.swift; sourceTree = "<group>"; };
+		4DC11FF627DA298300D80461 /* AudiosListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AudiosListVC.xib; sourceTree = "<group>"; };
+		4DC11FFE27DA2C3000D80461 /* NowPlayingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingVC.swift; sourceTree = "<group>"; };
+		4DC11FFF27DA2C3000D80461 /* NowPlayingVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NowPlayingVC.xib; sourceTree = "<group>"; };
+		4DC1200327DA319200D80461 /* AudioDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioDM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D9C111B27DA6BFA0080692D /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				4D54548A27DCA35B00270611 /* AnimationFrames.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		4DC11FCF27DA285F00D80461 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +76,53 @@
 		4DC11FDA27DA285F00D80461 /* KSAudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				4DC1200227DA317F00D80461 /* Model */,
 				4DC11FDB27DA285F00D80461 /* AppDelegate.swift */,
-				4DC11FDD27DA285F00D80461 /* SceneDelegate.swift */,
-				4DC11FDF27DA285F00D80461 /* ViewController.swift */,
-				4DC11FE127DA285F00D80461 /* Main.storyboard */,
-				4DC11FE427DA286100D80461 /* Assets.xcassets */,
-				4DC11FE627DA286100D80461 /* LaunchScreen.storyboard */,
-				4DC11FE927DA286100D80461 /* Info.plist */,
+				4DC11FF027DA291200D80461 /* MainVC */,
+				4DC11FEF27DA28F800D80461 /* SupportFile */,
 			);
 			path = KSAudioPlayer;
+			sourceTree = "<group>";
+		};
+		4DC11FEF27DA28F800D80461 /* SupportFile */ = {
+			isa = PBXGroup;
+			children = (
+				4DC11FE627DA286100D80461 /* LaunchScreen.storyboard */,
+				4DC11FE427DA286100D80461 /* Assets.xcassets */,
+				4DC11FE927DA286100D80461 /* Info.plist */,
+			);
+			path = SupportFile;
+			sourceTree = "<group>";
+		};
+		4DC11FF027DA291200D80461 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				4D9C111B27DA6BFA0080692D /* New Group */,
+				4DC11FF527DA298300D80461 /* AudiosListVC.swift */,
+				4DC11FF627DA298300D80461 /* AudiosListVC.xib */,
+				4DC11FFE27DA2C3000D80461 /* NowPlayingVC.swift */,
+				4DC11FFF27DA2C3000D80461 /* NowPlayingVC.xib */,
+				4D9C111C27DA6C140080692D /* KSAudioPlayer.swift */,
+				4DC11FFD27DA2B0A00D80461 /* TVC */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		4DC11FFD27DA2B0A00D80461 /* TVC */ = {
+			isa = PBXGroup;
+			children = (
+				4D9C111727DA67510080692D /* AudioListTVC.swift */,
+				4D9C111827DA67510080692D /* AudioListTVC.xib */,
+			);
+			path = TVC;
+			sourceTree = "<group>";
+		};
+		4DC1200227DA317F00D80461 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4DC1200327DA319200D80461 /* AudioDM.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +183,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DC11FF827DA298300D80461 /* AudiosListVC.xib in Resources */,
+				4D9C111A27DA67510080692D /* AudioListTVC.xib in Resources */,
 				4DC11FE827DA286100D80461 /* LaunchScreen.storyboard in Resources */,
 				4DC11FE527DA286100D80461 /* Assets.xcassets in Resources */,
-				4DC11FE327DA285F00D80461 /* Main.storyboard in Resources */,
+				4DC1200127DA2C3000D80461 /* NowPlayingVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +198,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DC11FE027DA285F00D80461 /* ViewController.swift in Sources */,
 				4DC11FDC27DA285F00D80461 /* AppDelegate.swift in Sources */,
-				4DC11FDE27DA285F00D80461 /* SceneDelegate.swift in Sources */,
+				4DC1200427DA319200D80461 /* AudioDM.swift in Sources */,
+				4D54548B27DCA35B00270611 /* AnimationFrames.swift in Sources */,
+				4D9C111927DA67510080692D /* AudioListTVC.swift in Sources */,
+				4D9C111D27DA6C140080692D /* KSAudioPlayer.swift in Sources */,
+				4DC11FF727DA298300D80461 /* AudiosListVC.swift in Sources */,
+				4DC1200027DA2C3000D80461 /* NowPlayingVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4DC11FE127DA285F00D80461 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4DC11FE227DA285F00D80461 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4DC11FE627DA286100D80461 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -217,7 +273,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +328,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -289,24 +345,26 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2N8JD58W7U;
+				DEVELOPMENT_TEAM = KZ9ZFJVL8G;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KSAudioPlayer/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Audio file saqlash uchun ruhsat bering bu audioni offline eshitishingiz uchun kerak";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "BU bizgs kerak";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Siddikjon.KSAudioPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = Siddikjon.KSAudioPlayer1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,24 +375,26 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2N8JD58W7U;
+				DEVELOPMENT_TEAM = KZ9ZFJVL8G;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KSAudioPlayer/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Audio file saqlash uchun ruhsat bering bu audioni offline eshitishingiz uchun kerak";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "BU bizgs kerak";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Siddikjon.KSAudioPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = Siddikjon.KSAudioPlayer1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
