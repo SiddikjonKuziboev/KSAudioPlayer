@@ -86,7 +86,7 @@ class NowPlayingVC: UIViewController {
         }
     }
     
-    func playerStateDidChange(_ state: FRadioPlayerState, animate: Bool) {
+    func playerStateDidChange(_ state: KSAudioPlayerState, animate: Bool) {
         let message: String?
 
         switch state {

@@ -56,10 +56,7 @@ class AudiosListVC: UIViewController {
         title = "Siddikjon's Player"
     }
     
-    //*****************************************************************
-    // MARK: - Private helpers
-    //*****************************************************************
-    
+    // MARK: - Private helpers    
     private func stationsDidUpdate() {
         DispatchQueue.main.async {
             self.tableView.reloadData()
@@ -268,10 +265,10 @@ extension AudiosListVC: NowPlayingViewControllerDelegate {
     }
 }
 
-//MARK: FRadioPlayerDelegate
-extension AudiosListVC: FRadioPlayerDelegate {
+//MARK: KSAudioPlayerDelegate
+extension AudiosListVC: KSAudioPlayerDelegate {
     
-    func radioPlayer(_ player: KSAudioPlayer, playerStateDidChange state: FRadioPlayerState) {
+    func radioPlayer(_ player: KSAudioPlayer, playerStateDidChange state: KSAudioPlayerState) {
         nowPlayingVC?.playerStateDidChange(state, animate: true)
     }
     

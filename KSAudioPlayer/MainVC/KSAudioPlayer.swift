@@ -9,27 +9,27 @@ import Foundation
 import AVFoundation
 
 
-@objc public protocol FRadioPlayerDelegate: AnyObject {
+@objc public protocol KSAudioPlayerDelegate: AnyObject {
     /**
      Called when player changes state
      
-     - parameter player: FRadioPlayer
-     - parameter state: FRadioPlayerState
+     - parameter player: KSAudioPlayer
+     - parameter state: KSAudioPlayerState
      */
-    func radioPlayer(_ player: KSAudioPlayer, playerStateDidChange state: FRadioPlayerState)
+    func radioPlayer(_ player: KSAudioPlayer, playerStateDidChange state: KSAudioPlayerState)
     
     /**
      Called when the player changes the playing state
      
-     - parameter player: FRadioPlayer
-     - parameter state: FRadioPlaybackState
+     - parameter player: KSAudioPlayer
+     - parameter state: KSAudioPlaybackState
      */
     func radioPlayer(_ player: KSAudioPlayer, playbackStateDidChange state: FRadioPlaybackState)
     
     /**
      Called when player changes the current player item
      
-     - parameter player: FRadioPlayer
+     - parameter player: KSAudioPlayer
      - parameter url: Radio URL
      */
     @objc optional func radioPlayer(_ player: KSAudioPlayer, itemDidChange url: URL?)
@@ -37,7 +37,7 @@ import AVFoundation
     /**
      Called when player item changes the timed metadata value, it uses (separatedBy: " - ") to get the artist/song name, if you want more control over the raw metadata, consider using `metadataDidChange rawValue` instead
      
-     - parameter player: FRadioPlayer
+     - parameter player: KSAudioPlayer
      - parameter artistName: The artist name
      - parameter trackName: The track name
      */
@@ -46,7 +46,7 @@ import AVFoundation
     /**
      Called when player item changes the timed metadata value
      
-     - parameter player: FRadioPlayer
+     - parameter player: KSAudioPlayer
      - parameter rawValue: metadata raw value
      */
     @objc optional func radioPlayer(_ player: KSAudioPlayer, metadataDidChange rawValue: String?)
@@ -54,7 +54,7 @@ import AVFoundation
     /**
      Called when the player gets the artwork for the playing song
      
-     - parameter player: FRadioPlayer
+     - parameter player: KSAudioPlayer
      - parameter artworkURL: URL for the artwork from iTunes
      */
     @objc optional func radioPlayer(_ player: KSAudioPlayer, artworkDidChange artworkURL: URL?)
@@ -85,13 +85,13 @@ import AVFoundation
     }
 }
 
-// MARK: - FRadioPlayerState
+// MARK: - KSAudioPlayerState
 
 /**
- `FRadioPlayerState` is the Player status enum
+ `KSAudioPlayerState` is the Player status enum
  */
 
-@objc public enum FRadioPlayerState: Int {
+@objc public enum KSAudioPlayerState: Int {
     
     /// URL not set
     case urlNotSet
@@ -149,7 +149,7 @@ open class KSAudioPlayer: NSObject {
         }
     }
     
-    open weak var delegate: FRadioPlayerDelegate?
+    open weak var delegate: KSAudioPlayerDelegate?
     
     
     /// Check if the player is playing
@@ -163,7 +163,7 @@ open class KSAudioPlayer: NSObject {
     }
     
     /// Player current state of type `FRadioPlayerState`
-    open private(set) var state = FRadioPlayerState.urlNotSet {
+    open private(set) var state = KSAudioPlayerState.urlNotSet {
         didSet {
             guard oldValue != state else { return }
             delegate?.radioPlayer(self, playerStateDidChange: state)
