@@ -97,12 +97,12 @@
 		4DC11FF027DA291200D80461 /* MainVC */ = {
 			isa = PBXGroup;
 			children = (
-				4D9C111B27DA6BFA0080692D /* New Group */,
 				4DC11FF527DA298300D80461 /* AudiosListVC.swift */,
 				4DC11FF627DA298300D80461 /* AudiosListVC.xib */,
 				4DC11FFE27DA2C3000D80461 /* NowPlayingVC.swift */,
 				4DC11FFF27DA2C3000D80461 /* NowPlayingVC.xib */,
 				4D9C111C27DA6C140080692D /* KSAudioPlayer.swift */,
+				4D9C111B27DA6BFA0080692D /* New Group */,
 				4DC11FFD27DA2B0A00D80461 /* TVC */,
 			);
 			path = MainVC;
@@ -352,6 +352,7 @@
 				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "BU bizgs kerak";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -382,6 +383,7 @@
 				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "BU bizgs kerak";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
