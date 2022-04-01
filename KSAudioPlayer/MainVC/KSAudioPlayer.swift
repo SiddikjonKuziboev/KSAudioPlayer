@@ -364,6 +364,7 @@ extension KSAudioPlayer {
                     // after downloading your data you need to save it to your destination url
                     if (try? myAudioDataFromUrl.write(to: savedURL, options: [.atomic])) != nil {
                         print("file saved")
+    
                         self.state = .readyToPlay
                         
                         completion(savedURL, false)

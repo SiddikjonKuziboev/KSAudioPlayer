@@ -137,7 +137,7 @@ class AudiosListVC: UIViewController {
         if let t = audioPlayer.getCurrentTime() {
             let time = CMTimeGetSeconds(t)
             nowPlayingInfo[MPNowPlayingInfoPropertyElapsedPlaybackTime] = time
-            nowPlayingInfo[MPMediaItemPropertyPlaybackDuration] = CMTimeGetSeconds(audioPlayer.getAssetDuration()!)
+            nowPlayingInfo[MPMediaItemPropertyPlaybackDuration] = CMTimeGetSeconds(audioPlayer.getAssetDuration() ?? CMTime())
             
         }
         
